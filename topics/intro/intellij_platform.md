@@ -1,12 +1,25 @@
-[//]: # (title: What is the IntelliJ Platform?)
+[//]: # "title: What is the IntelliJ Platform? 什么是IntelliJ Platform"
 
 <!-- Copyright 2000-2020 JetBrains s.r.o. and other contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. -->
 
 The _IntelliJ Platform_ is not a product in and of itself but provides a platform for building IDEs.
+
+IntelliJ平台本身并非一个产品，而是一个构件IDEs的平台。
+
 It is used to power JetBrains products such as [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+
+它用于支撑JetBrains系列产品的构建，例如IntelliJ IDEA。
+
 It is also Open Source and can be used by third parties to build IDEs, such as [Android Studio](https://developer.android.com/studio/index.html) from Google.
 
+它是开源的且能被第三方用于构建IDEs，例如谷歌的Android Studio。
+
 The IntelliJ Platform provides all of the infrastructures that these IDEs need to provide rich language tooling support.
+
+自构建IDEs所需要提供的富语言工具支持，
+
+
+
 It is a component-driven, cross-platform JVM based application host with a high-level user interface toolkit for creating tool windows, tree views, and lists (supporting fast search) as well as popup menus and dialogs.
 
 The IntelliJ Platform has a full-text editor with abstract implementations of syntax highlighting, code folding, code completion, and other rich text editing features. 
